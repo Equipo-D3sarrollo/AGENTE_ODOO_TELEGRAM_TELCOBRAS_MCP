@@ -1,4 +1,4 @@
-<!-- Path: compras_y_pagos/05_aprobacion_pagos.md -->
+<!-- Path: compras_y_pagos/01_aprobacion_pagos.md -->
 
 # MANUAL DE USO COMPRAS, GERENCIA Y CONTABILIDAD
 ## Agente de aprobación de pagos por Telegram
