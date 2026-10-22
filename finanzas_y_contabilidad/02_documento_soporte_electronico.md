@@ -1,4 +1,4 @@
-<!-- Path: finanzas_y_contabilidad/01_documento_soporte_electronico.md -->
+<!-- Path: finanzas_y_contabilidad/02_documento_soporte_electronico.md -->
 
 # Emisión de Documento Soporte Electrónico (DIAN)
 
