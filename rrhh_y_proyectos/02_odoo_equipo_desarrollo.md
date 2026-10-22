@@ -1,4 +1,4 @@
-<!-- Path: rrhh_y_proyectos/09_odoo_equipo_desarrollo.md -->
+<!-- Path: rrhh_y_proyectos/02_odoo_equipo_desarrollo.md -->
 
 # Manual de Puesta en Marcha: Odoo para el Equipo de Desarrollo
 
