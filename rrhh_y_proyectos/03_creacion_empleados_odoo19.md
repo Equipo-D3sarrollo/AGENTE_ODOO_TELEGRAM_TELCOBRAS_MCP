@@ -1,4 +1,4 @@
-<!-- Path: rrhh_y_proyectos/10_creacion_empleados_odoo19.md -->
+<!-- Path: rrhh_y_proyectos/03_creacion_empleados_odoo19.md -->
 
 # Creación de Empleados en Odoo 19: Talento Humano y Gerente
 
