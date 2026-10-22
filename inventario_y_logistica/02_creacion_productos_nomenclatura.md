@@ -1,4 +1,4 @@
-<!-- Path: inventario_y_logistica/07_creacion_productos_nomenclatura.md -->
+<!-- Path: inventario_y_logistica/02_creacion_productos_nomenclatura.md -->
 
 # Creación de Productos y Nomenclatura en Inventario (Odoo 19)
 
