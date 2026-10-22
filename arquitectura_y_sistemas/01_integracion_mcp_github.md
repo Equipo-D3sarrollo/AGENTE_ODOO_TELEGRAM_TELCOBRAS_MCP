@@ -1,4 +1,4 @@
-<!-- Path: arquitectura_y_sistemas/10_integracion_mcp_github.md -->
+<!-- Path: arquitectura_y_sistemas/01_integracion_mcp_github.md -->
 
 # Arquitectura de Integración MCP & GitHub para Agentes IA
 
