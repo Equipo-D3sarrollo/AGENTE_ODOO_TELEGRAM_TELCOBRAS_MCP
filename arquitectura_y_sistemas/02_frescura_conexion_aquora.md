@@ -1,4 +1,4 @@
-<!-- Path: arquitectura_y_sistemas/11_frescura_conexion_aquora.md -->
+<!-- Path: arquitectura_y_sistemas/02_frescura_conexion_aquora.md -->
 
 # Monitoreo de Plantas PTAP: Frescura y Conexión (Aquora)
 
