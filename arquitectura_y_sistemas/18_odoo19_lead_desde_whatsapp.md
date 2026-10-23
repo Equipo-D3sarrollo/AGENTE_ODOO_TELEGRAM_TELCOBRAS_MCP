@@ -1,5 +1,5 @@
 ````markdown
-<!-- Path: comercial/18_odoo19_lead_desde_whatsapp.md -->
+<!-- Path: arquitectura_y_sistemas/18_odoo19_lead_desde_whatsapp.md -->
 
 # 💬 Manual Operativo 18: Creación de Oportunidades (Leads) desde WhatsApp en Odoo 19
 
@@ -47,4 +47,4 @@
 
 ---
 ### 🔗 Línea de Enrutamiento para el System Prompt
-- Creación de Leads desde WhatsApp Odoo 19 (Integración con Discuss, comando rápido /lead, conversión de chats en oportunidades de CRM): [https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/arquitectura_y_sistemas/18_odoo19_lead_desde_whatsapp.md](https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/arquitectura_y_sistemas/18_odoo19_lead_desde_whatsapp.md)
+- Creación de Leads desde WhatsApp Odoo 19 (Integración con Discuss, comando rápido /lead, conversión de chats en oportunidades de CRM): https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/arquitectura_y_sistemas/18_odoo19_lead_desde_whatsapp.md
