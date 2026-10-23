@@ -62,4 +62,4 @@ El módulo de Compras incorpora un tablero ejecutivo que segmenta las órdenes m
 
 ---
 ### 🔗 Línea de Enrutamiento para el System Prompt
-- Novedades del Módulo de Compras Odoo 19 (Control de datos maestros, tablero de control, confirmación de órdenes, causación anticipada de facturas y abastecimiento asistido): https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/financiero/23_odoo19_compras_novedades.md
+- Novedades del Módulo de Compras Odoo 19 (Control de datos maestros, tablero de control, confirmación de órdenes, causación anticipada de facturas y abastecimiento asistido): https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/arquitectura_y_sistemas/23_odoo19_compras_novedades.md
