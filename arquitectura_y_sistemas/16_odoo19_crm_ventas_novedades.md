@@ -1,4 +1,4 @@
-<!-- Path: comercial/16_odoo19_crm_ventas_novedades.md -->
+<!-- Path: arquitectura_y_sistemas/16_odoo19_crm_ventas_novedades.md -->
 
 # 📈 Manual Operativo 16: Novedades del Ciclo Comercial — CRM y Ventas en Odoo 19
 
