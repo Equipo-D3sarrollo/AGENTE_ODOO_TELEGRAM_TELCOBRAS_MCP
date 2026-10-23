@@ -1,4 +1,4 @@
-<!-- Path: financiero/23_odoo19_compras_novedades.md -->
+<!-- Path: arquitectura_y_sistemas/23_odoo19_compras_novedades.md -->
 
 # 🛒 Manual Operativo 23: Novedades y Gestión Avanzada del Módulo de Compras en Odoo 19
 
