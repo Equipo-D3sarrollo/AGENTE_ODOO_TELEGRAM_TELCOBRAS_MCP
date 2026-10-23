@@ -1,4 +1,4 @@
-<!-- Path: financiero/21_odoo_pasarelas_de_pago.md -->
+<!-- Path:arquitectura_y_sistemas/21_odoo_pasarelas_de_pago.md -->
 
 # 💳 Manual Operativo 21: Configuración y Gestión de Pasarelas de Pago en Odoo (Cobros Online y Suscripciones)
 
