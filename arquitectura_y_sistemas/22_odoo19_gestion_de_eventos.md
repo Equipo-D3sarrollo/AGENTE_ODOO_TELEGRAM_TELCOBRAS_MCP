@@ -1,4 +1,4 @@
-<!-- Path: comercial/22_odoo19_gestion_de_eventos.md -->
+<!-- Path: arquitectura_y_sistemas/22_odoo19_gestion_de_eventos.md -->
 
 # 🎟️ Manual Operativo 22: Creación, Configuración y Gestión Integral de Eventos en Odoo 19
 
@@ -71,4 +71,4 @@ Un mismo evento puede estructurarse con múltiples categorías de acceso:
 
 ---
 ### 🔗 Línea de Enrutamiento para el System Prompt
-- Creación y Gestión de Eventos en Odoo 19 (Configuración de sedes, aforos, tipos de boletos con moneda local, preguntas personalizadas, publicación web y emisión de códigos QR): https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/comercial/22_odoo19_gestion_de_eventos.md
+- Creación y Gestión de Eventos en Odoo 19 (Configuración de sedes, aforos, tipos de boletos con moneda local, preguntas personalizadas, publicación web y emisión de códigos QR): https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/arquitectura_y_sistemas/22_odoo19_gestion_de_eventos.md
