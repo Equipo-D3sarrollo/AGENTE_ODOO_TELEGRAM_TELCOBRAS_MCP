@@ -1,4 +1,4 @@
-<!-- Path:arquitectura_y_sistemas/21_odoo_pasarelas_de_pago.md -->
+<!-- Path: arquitectura_y_sistemas/21_odoo_pasarelas_de_pago.md -->
 
 # 💳 Manual Operativo 21: Configuración y Gestión de Pasarelas de Pago en Odoo (Cobros Online y Suscripciones)
 
@@ -64,4 +64,4 @@ Odoo incluye integraciones nativas con múltiples pasarelas internacionales. Sin
 
 ---
 ### 🔗 Línea de Enrutamiento para el System Prompt
-- Pasarelas de Pago en Odoo (Configuración de proveedores nativos como Mercado Pago, cobro de anticipos por portal, integración con suscripciones y consideraciones fiscales en Colombia): https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/financiero/21_odoo_pasarelas_de_pago.md
+- Pasarelas de Pago en Odoo (Configuración de proveedores nativos como Mercado Pago, cobro de anticipos por portal, integración con suscripciones y consideraciones fiscales en Colombia): https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/arquitectura_y_sistemas/21_odoo_pasarelas_de_pago.md
