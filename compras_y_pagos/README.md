@@ -3,26 +3,26 @@
 # 💳 Categoría: Compras y Pagos - Telcobras S.A.S.
 
 ## 📖 ¿Qué es y para qué se usa esta categoría?
-La categoría **Compras y Pagos** concentra toda la documentación financiera, administrativa y operativa relacionada con los procesos de adquisición de bienes, servicios, control presupuestal y los flujos normativos de aprobación de pagos corporativos en Telcobras S.A.S.
+La categoría **Compras y Pagos** concentra toda la documentación financiera, administrativa y operativa relacionada con los procesos de adquisición de bienes y servicios, control presupuestal y autorización de pagos.
 
 **¿Para qué se usa?**
 * **Gestión Financiera:** Estandariza los flujos de autorización, validación de soportes y desembolsos.
-* **Control y Auditoría:** Define los niveles de aprobación, roles gerenciales/financieros y los registros obligatorios para mantener la trazabilidad contable.
-* **Relación con Proveedores:** Establece los lineamientos para el procesamiento de facturas, órdenes de compra y gestión de cuentas por pagar.
+* **Control y Auditoría:** Define los niveles de aprobación, roles y registros necesarios para mantener trazabilidad contable.
+* **Relación con Proveedores:** Establece lineamientos para el procesamiento de facturas, órdenes de compra y cuentas por pagar.
 
 ---
 
-## 📑 Índice de Documentos
+## 📑 Índice de Documentos Actualizados
 
 | # | Nombre del Archivo | Descripción General |
 | :--- | :--- | :--- |
-| **01** | `01_aprobacion_pagos.md` | Flujos de trabajo, políticas, roles y criterios de validación para la aprobación y gestión de pagos corporativos. |
+| **01** | `01_aprobacion_pagos.md` | Documento sobre flujos, políticas y criterios de aprobación de pagos. |
 
 ---
 
 ## 🚀 Guía: ¿Cómo agregar un nuevo manual correctamente?
 
-Para mantener la base de conocimiento organizada y funcional tanto para el equipo como para el agente de IA (Make.com), siga estrictamente estos 4 pasos al crear un nuevo manual en esta categoría:
+Para mantener la base de conocimiento organizada y funcional tanto para el equipo como para el agente de IA (Make.com), siga estrictamente estos 4 pasos al crear un nuevo manual en esta categoría.
 
 ### 1. Naming y Ubicación del Archivo
 * **Ruta:** Guarde el nuevo archivo dentro de la carpeta `compras_y_pagos/`.
@@ -44,3 +44,19 @@ Todo manual nuevo debe incluir obligatoriamente los metadatos de contexto al ini
 
 ## 1. Sección Principal
 ...
+```
+
+### 3. Reglas de Gestión y Auditoría
+* Mantener consistencia en la terminología de compras, pagos y aprobación.
+* Registrar roles y responsables cuando la normativa lo exija.
+* Evidenciar cambios relevantes en políticas o procedimientos.
+
+### 4. Validación y publicación
+* Revisar que el documento esté alineado con la categoría `compras_y_pagos/`.
+* Confirmar que su nombre y contenido correspondan exactamente al procedimiento documentado.
+* Incluirlo en este índice antes de compartirlo como referencia oficial.
+
+---
+
+> Este índice refleja los documentos actualmente disponibles en la categoría de compras y pagos.
+

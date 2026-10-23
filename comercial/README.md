@@ -6,32 +6,33 @@
 La categoría **Comercial** concentra toda la documentación institucional, portafolios de servicios corporativos, propuestas comerciales y los lineamientos de oferta de valor de Telcobras S.A.S.
 
 **¿Para qué se usa?**
-* **Alineación Comercial:** Guía al equipo de ventas y directivos sobre la oferta integral de servicios tecnológicos (conectividad, seguridad, colaboración, nube y agentes de IA).
-* **Posicionamiento Corporativo:** Proporciona información estandarizada sobre la misión, visión, trayectoria (más de 20 años) y público objetivo de la empresa.
-* **Soporte a Propuestas:** Sirve como base informativa para responder a requerimientos de clientes corporativos (medianas y grandes empresas).
+* **Alineación Comercial:** Guía al equipo de ventas y directivos sobre la oferta integral de servicios tecnológicos y de negocio.
+* **Posicionamiento Corporativo:** Proporciona información estandarizada sobre la misión, visión, trayectoria y público objetivo de la empresa.
+* **Soporte a Propuestas:** Sirve como base informativa para responder a requerimientos de clientes corporativos y públicos estratégicos.
 
 ---
 
-## 📑 Índice de Documentos
+## 📑 Índice de Documentos Actualizados
 
 | # | Nombre del Archivo | Descripción General |
 | :--- | :--- | :--- |
-| **01** | `01_portafolio_servicios.md` | Portafolio corporativo de servicios, identidad (misión/visión), pilares tecnológicos y propuesta de valor de Telcobras S.A.S. |
+| **01** | `01_portafolio_servicios.md` | Documento del portafolio de servicios y propuesta de valor de Telcobras S.A.S. |
+| **02** | `02_odoo19_2_novedades_alquiler.md` | Documento sobre novedades de alquiler en Odoo 19 y su relevancia comercial. |
 
 ---
 
 ## 🚀 Guía: ¿Cómo agregar un nuevo manual correctamente?
 
-Para mantener la base de conocimiento organizada y funcional tanto para el equipo como para el agente de IA (Make.com), siga estrictamente estos 4 pasos al crear un nuevo manual en esta categoría:
+Para mantener la base de conocimiento organizada y funcional tanto para el equipo como para el agente de IA (Make.com), siga estrictamente estos 4 pasos al crear un nuevo manual en esta categoría.
 
 ### 1. Naming y Ubicación del Archivo
 * **Ruta:** Guarde el nuevo archivo dentro de la carpeta `comercial/`.
-* **Nomenclatura:** Utilice un número secuencial de dos dígitos seguido de un nombre descriptivo en minúsculas separado por guiones bajos (ej. `02_propuesta_comercial_corporativa.md`).
+* **Nomenclatura:** Utilice un número secuencial de dos dígitos seguido de un nombre descriptivo en minúsculas separado por guiones bajos (ej. `03_propuesta_comercial_corporativa.md`).
 
 ### 2. Estructura y Estándar de Contenido (Semantic Markdown)
 Todo manual nuevo debe incluir obligatoriamente los metadatos de contexto al inicio:
 ```markdown
-<!-- Path: comercial/02_propuesta_comercial_corporativa.md -->
+<!-- Path: comercial/03_propuesta_comercial_corporativa.md -->
 
 # Título Descriptivo del Documento
 
@@ -44,3 +45,19 @@ Todo manual nuevo debe incluir obligatoriamente los metadatos de contexto al ini
 
 ## 1. Sección Principal
 ...
+```
+
+### 3. Reglas de Control y Validación
+* Mantener descripciones homogéneas para facilitar la búsqueda semántica.
+* Asegurar que cada manual refleje el alcance real del documento cargado.
+* Evitar duplicar contenido o crear versiones paralelas con el mismo propósito.
+
+### 4. Publicación y mantenimiento
+* Revisar el nombre del archivo y su alineación con la categoría comercial.
+* Confirmar que el documento esté incluido en este índice antes de compartirlo.
+* Mantener la base documental en un estado consistente y auditable.
+
+---
+
+> Este índice se actualiza para reflejar explícitamente los documentos existentes en la categoría comercial.
+
