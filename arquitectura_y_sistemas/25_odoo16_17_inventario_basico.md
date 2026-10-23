@@ -50,4 +50,4 @@ Permite auditar en tiempo real la situación del inventario corporativo, mostran
 
 ---
 ### 🔗 Línea de Enrutamiento para el System Prompt
-- Fundamentos Históricos del Módulo de Inventario en Odoo (Versiones 16-17): Estructura de almacenes, prefijos de ubicación, reportes de existencias y diferenciación metodológica entre ajustes de inventario físico y recepciones por compras: [https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/arquitectura_y_sistemas/25_odoo16_17_inventario_basico.md](https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/arquitectura_y_sistemas/25_odoo16_17_inventario_basico.md)
+- Fundamentos Históricos del Módulo de Inventario en Odoo (Versiones 16-17): Estructura de almacenes, prefijos de ubicación, reportes de existencias y diferenciación metodológica entre ajustes de inventario físico y recepciones por compras: https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/arquitectura_y_sistemas/25_odoo16_17_inventario_basico.md
