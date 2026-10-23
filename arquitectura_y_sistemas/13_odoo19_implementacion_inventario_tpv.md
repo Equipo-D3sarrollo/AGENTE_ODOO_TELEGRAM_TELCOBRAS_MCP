@@ -1,4 +1,4 @@
-<!-- Path: comercial/13_odoo19_implementacion_inventario_tpv.md -->
+<!-- Path: arquitectura_y_sistemas/13_odoo19_implementacion_inventario_tpv.md -->
 
 # 📦 Manual Operativo 13: Implementación Básica — Almacenes, Productos, Inventario y Punto de Venta (Odoo 19)
 
