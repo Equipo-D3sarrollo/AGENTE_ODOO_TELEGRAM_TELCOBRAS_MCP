@@ -1,4 +1,4 @@
-<!-- Path: comercial/17_odoo19_crm_agendar_reunion.md -->
+<!-- Path: arquitectura_y_sistemas/17_odoo19_crm_agendar_reunion.md -->
 
 # 📅 Manual Operativo 17: Gestión de Citas y Reuniones Comerciales desde el CRM (Odoo 19)
 
