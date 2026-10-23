@@ -1,4 +1,4 @@
-<!-- Path: financiero/24_odoo19_costos_en_destino.md -->
+<!-- Path: arquitectura_y_sistemas/24_odoo19_costos_en_destino.md -->
 
 # 📦 Manual Operativo 24: Automatización y Gestión de Costos en Destino (Landed Costs) en Odoo 19
 
@@ -70,4 +70,4 @@ Para imputar los fletes o gastos, debe crearse o configurarse un producto dedica
 
 ---
 ### 🔗 Línea de Enrutamiento para el System Prompt
-- Automatización de Costos en Destino en Odoo 19 (Activación de landed costs, configuración de categorías de inventario FIFO/Promedio, parametrización de servicios de flete, métodos de división y aplicación contable en compras): https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/financiero/24_odoo19_costos_en_destino.md
+- Automatización de Costos en Destino en Odoo 19 (Activación de landed costs, configuración de categorías de inventario FIFO/Promedio, parametrización de servicios de flete, métodos de división y aplicación contable en compras): https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/arquitectura_y_sistemas/24_odoo19_costos_en_destino.md
