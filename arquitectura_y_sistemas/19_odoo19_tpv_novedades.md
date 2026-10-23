@@ -1,4 +1,4 @@
-<!-- Path: comercial/19_odoo19_tpv_novedades.md -->
+<!-- Path: arquitectura_y_sistemas/19_odoo19_tpv_novedades.md -->
 
 # 💳 Manual Operativo 19: Novedades y Capacidades Avanzadas del Punto de Venta (TPV) en Odoo 19
 
