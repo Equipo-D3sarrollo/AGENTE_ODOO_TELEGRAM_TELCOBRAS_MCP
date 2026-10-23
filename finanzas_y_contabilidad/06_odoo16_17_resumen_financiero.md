@@ -1,7 +1,7 @@
 ````markdown
 <!-- Path: finanzas_y_contabilidad/06_odoo16_17_resumen_financiero.md -->
 
-# 📊 Manual Operativo 25: Análisis y Lectura del Resumen Financiero Ejecutivo (Histórico v.16-17)
+# 📊 Manual Operativo 06: Análisis y Lectura del Resumen Financiero Ejecutivo (Histórico v.16-17)
 
 **Módulo / Área:** Financiero y Contabilidad / Informes Ejecutivos  
 **Clasificación:** SOPORTE DE CONSULTA / REFERENCIA CONCEPTUAL (Aplica como guía para la lectura de reportes ejecutivos heredados de versiones 16-17)  
