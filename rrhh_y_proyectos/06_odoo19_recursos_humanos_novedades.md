@@ -1,7 +1,7 @@
 ````markdown
 <!-- Path: rrhh_y_proyectos/06_odoo19_recursos_humanos_novedades.md -->
 
-# 👥 Manual Operativo 26: Novedades y Gestión Integral de Recursos Humanos en Odoo 19
+# 👥 Manual Operativo 06: Novedades y Gestión Integral de Recursos Humanos en Odoo 19
 
 **Módulo / Área:** RR. HH. y Proyectos / Gestión del Talento, Asistencias y Nómina  
 **Rol Requerido:** Director de Recursos Humanos, Analistas de Nómina, Administrador del Sistema  
