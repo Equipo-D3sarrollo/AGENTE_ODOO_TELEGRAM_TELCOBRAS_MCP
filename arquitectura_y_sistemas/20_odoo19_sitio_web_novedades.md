@@ -1,4 +1,4 @@
-<!-- Path: comercial/20_odoo19_sitio_web_novedades.md -->
+<!-- Path: arquitectura_y_sistemas/20_odoo19_sitio_web_novedades.md -->
 
 # 🌐 Manual Operativo 20: Novedades del Constructor Web y E-Commerce en Odoo 19
 
