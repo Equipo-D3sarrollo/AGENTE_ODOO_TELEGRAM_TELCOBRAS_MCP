@@ -1,6 +1,6 @@
 <!-- Path: finanzas_y_contabilidad/08_manual_factura_electronica_venta.md -->
 
-# 🧾 Manual Operativo 01: Generación de Factura Electrónica de Venta (Invoice) - UBL 2.1
+# 🧾 Manual Operativo 08: Generación de Factura Electrónica de Venta (Invoice) - UBL 2.1
 
 **Módulo / Área:** Motor de Integración DIAN / Finanzas y Contabilidad  
 **Rol Requerido:** Desarrollador de Integración, Área Contable, Analista de Facturación  
