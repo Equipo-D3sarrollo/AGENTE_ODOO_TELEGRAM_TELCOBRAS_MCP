@@ -3,7 +3,7 @@
 # 💳 Categoría: Compras y Pagos - Telcobras S.A.S.
 
 ## 📖 ¿Qué es y para qué se usa esta categoría?
-La categoría **Compras y Pagos** concentra toda la documentación financiera, administrativa y operativa relacionada con los procesos de adquisición de bienes y servicios, control presupuestal y autorización de pagos.
+La categoría **Compras y Pagos** concentra toda la documentación financiera, administrativa y operativa relacionada con los procesos de adquisición de bienes y servicios, control presupuestal y aprobación de desembolsos de la organización.
 
 **¿Para qué se usa?**
 * **Gestión Financiera:** Estandariza los flujos de autorización, validación de soportes y desembolsos.
@@ -16,7 +16,7 @@ La categoría **Compras y Pagos** concentra toda la documentación financiera, a
 
 | # | Nombre del Archivo | Descripción General |
 | :--- | :--- | :--- |
-| **01** | `01_aprobacion_pagos.md` | Documento sobre flujos, políticas y criterios de aprobación de pagos. |
+| **01** | `01_aprobacion_pagos.md` | Flujos, políticas y criterios de aprobación de pagos para compras y desembolsos. |
 
 ---
 
@@ -59,4 +59,5 @@ Todo manual nuevo debe incluir obligatoriamente los metadatos de contexto al ini
 ---
 
 > Este índice refleja los documentos actualmente disponibles en la categoría de compras y pagos.
+
 

@@ -16,8 +16,8 @@ La categoría **Comercial** concentra toda la documentación institucional, port
 
 | # | Nombre del Archivo | Descripción General |
 | :--- | :--- | :--- |
-| **01** | `01_portafolio_servicios.md` | Documento del portafolio de servicios y propuesta de valor de Telcobras S.A.S. |
-| **02** | `02_odoo19_2_novedades_alquiler.md` | Documento sobre novedades de alquiler en Odoo 19 y su relevancia comercial. |
+| **01** | `01_portafolio_servicios.md` | Portafolio de servicios y propuesta de valor corporativa de Telcobras S.A.S. |
+| **02** | `02_odoo19_2_novedades_alquiler.md` | Novedades del módulo de alquiler y su relevancia comercial en Odoo 19. |
 
 ---
 
@@ -60,4 +60,5 @@ Todo manual nuevo debe incluir obligatoriamente los metadatos de contexto al ini
 ---
 
 > Este índice se actualiza para reflejar explícitamente los documentos existentes en la categoría comercial.
+
 

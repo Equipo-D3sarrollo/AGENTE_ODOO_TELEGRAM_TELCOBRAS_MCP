@@ -3,7 +3,7 @@
 # 👥 Categoría: RRHH y Proyectos - Telcobras S.A.S.
 
 ## 📖 ¿Qué es y para qué se usa esta categoría?
-La categoría **RRHH y Proyectos** concentra toda la documentación relacionada con la gestión del talento humano, procesos de evaluación de desempeño, organización del equipo de desarrollo y directrices de identidad corporativa.
+La categoría **RRHH y Proyectos** concentra toda la documentación relacionada con la gestión del talento humano, procesos de evaluación de desempeño, organización del equipo de desarrollo y lineamientos operativos de proyectos y marca institucional.
 
 **¿Para qué se usa?**
 * **Gestión del Talento Humano:** Estandariza los procesos de evaluación de desempeño, su configuración y la administración de fichas de empleados.
@@ -16,12 +16,12 @@ La categoría **RRHH y Proyectos** concentra toda la documentación relacionada 
 
 | # | Nombre del Archivo | Descripción General |
 | :--- | :--- | :--- |
-| **01** | `01_evaluaciones_desempeno.md` | Documento sobre criterios, metodologías y aplicación de evaluaciones de desempeño. |
-| **02** | `02_odoo_equipo_desarrollo.md` | Documento sobre la estructura y organización del equipo de desarrollo en Odoo. |
-| **03** | `03_creacion_empleados_odoo19.md` | Documento sobre la creación y configuración de empleados en Odoo 19. |
-| **04** | `04_manual_de_marca.md` | Documento del manual de marca y lineamientos de identidad corporativa. |
-| **05** | `05_configuracion_evaluaciones_odoo19.md` | Documento sobre la configuración de evaluaciones de desempeño en Odoo 19. |
-| **06** | `06_odoo19_recursos_humanos_novedades.md` | Documento sobre novedades de recursos humanos en Odoo 19. |
+| **01** | `01_evaluaciones_desempeno.md` | Criterios, metodologías y aplicación de evaluaciones de desempeño. |
+| **02** | `02_odoo_equipo_desarrollo.md` | Estructura y organización del equipo de desarrollo y su operación en Odoo. |
+| **03** | `03_creacion_empleados_odoo19.md` | Creación y configuración de empleados en Odoo 19. |
+| **04** | `04_manual_de_marca.md` | Manual de marca y principios de identidad corporativa. |
+| **05** | `05_configuracion_evaluaciones_odoo19.md` | Configuración de evaluaciones de desempeño en Odoo 19. |
+| **06** | `06_odoo19_recursos_humanos_novedades.md` | Novedades y ajustes del módulo de recursos humanos en Odoo 19. |
 
 ---
 
@@ -64,4 +64,5 @@ Todo manual nuevo debe incluir obligatoriamente los metadatos de contexto al ini
 ---
 
 > Este índice se mantiene actualizado con los documentos actuales disponibles en RRHH y proyectos.
+
 

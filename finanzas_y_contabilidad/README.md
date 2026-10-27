@@ -16,13 +16,25 @@ La categoría **Finanzas y Contabilidad** concentra toda la documentación conta
 
 | # | Nombre del Archivo | Descripción General |
 | :--- | :--- | :--- |
-| **01** | `01_facturacion_electronica.md` | Documento sobre facturación electrónica y validaciones relacionadas con la DIAN. |
-| **02** | `02_documento_soporte_electronico.md` | Documento sobre el documento soporte electrónico y su uso con proveedores no obligados a facturar. |
-| **03** | `03_caja_menor_xpertic.md` | Documento sobre caja menor en Xpertic, topes, rubros y legalización. |
-| **04** | `04_agente_ia_causacion.md` | Documento sobre la utilización de agentes de IA para la causación contable. |
-| **05** | `05_notas_credito_debito_dian.md` | Documento sobre notas crédito y débito electrónicas con referencia a la DIAN. |
-| **06** | `06_odoo16_17_resumen_financiero.md` | Documento de resumen financiero para Odoo 16 y 17. |
-| **07** | `07_odoo19_nomina_overview.md` | Documento de visión general de nómina y finanzas en Odoo 19. |
+| **01** | `01_facturacion_electronica.md` | Facturación electrónica y validaciones tributarias relacionadas con la DIAN. |
+| **02** | `02_documento_soporte_electronico.md` | Documento soporte electrónico para proveedores no obligados a facturar. |
+| **03** | `03_caja_menor_xpertic.md` | Caja menor en Xpertic, topes, rubros y legalización de fondos. |
+| **04** | `04_agente_ia_causacion.md` | Uso de agentes de IA para automatizar la causación contable. |
+| **05** | `05_notas_credito_debito_dian.md` | Procedimiento para notas crédito y débito electrónicas con referencia a la DIAN. |
+| **06** | `06_odoo16_17_resumen_financiero.md` | Resumen financiero y contable para Odoo 16 y 17. |
+| **07** | `07_odoo19_nomina_overview.md` | Visión general de nómina y finanzas en Odoo 19. |
+| **08** | `08_manual_factura_electronica_venta.md` | Manual para la emisión y gestión de facturas electrónicas de venta. |
+| **09** | `09_manual_nota_credito.md` | Manual del proceso y requisitos para notas crédito electrónicas. |
+| **10** | `10_manual_nota_debito.md` | Manual del proceso y requisitos para notas débito electrónicas. |
+| **11** | `11_manual_contenedor_electronico.md` | Manejo del contenedor electrónico y su uso en la transmisión tributaria. |
+| **12** | `12_manual_registro_eventos_radian.md` | Registro de eventos y validaciones en el entorno de RADIAN. |
+| **13** | `13_manual_transmision_dian.md` | Procedimiento para la transmisión de documentos a la DIAN. |
+| **14** | `14_manual_reglas_validacion_rechazos.md` | Reglas de validación y manejo de rechazos tributarios. |
+| **15** | `15_manual_mecanismos_control.md` | Mecanismos de control y revisión para cumplimiento financiero y tributario. |
+| **16** | `16_manual_contingencias_tecnologicas.md` | Contingencias tecnológicas y continuidad operativa en procesos tributarios. |
+| **17** | `17_manual_entrega_recepcion.md` | Procedimiento de entrega y recepción de documentos y soportes. |
+| **18** | `18_manual_gestion_catalogos.md` | Gestión de catálogos y parametrización asociada a facturación y contabilidad. |
+| **19** | `19_manual_extensiones_sectoriales.md` | Extensiones sectoriales y particularidades para documentos electrónicos. |
 
 ---
 
@@ -32,12 +44,12 @@ Para mantener la base de conocimiento organizada y funcional tanto para el equip
 
 ### 1. Naming y Ubicación del Archivo
 * **Ruta:** Guarde el nuevo archivo dentro de la carpeta `finanzas_y_contabilidad/`.
-* **Nomenclatura:** Utilice un número secuencial de dos dígitos seguido de un nombre descriptivo en minúsculas separado por guiones bajos (ej. `08_politica_retenciones.md`).
+* **Nomenclatura:** Utilice un número secuencial de dos dígitos seguido de un nombre descriptivo en minúsculas separado por guiones bajos (ej. `20_politica_retenciones.md`).
 
 ### 2. Estructura y Estándar de Contenido (Semantic Markdown)
 Todo manual nuevo debe incluir obligatoriamente los metadatos de contexto al inicio:
 ```markdown
-<!-- Path: finanzas_y_contabilidad/08_politica_retenciones.md -->
+<!-- Path: finanzas_y_contabilidad/20_politica_retenciones.md -->
 
 # Título Descriptivo del Documento
 
@@ -65,4 +77,5 @@ Todo manual nuevo debe incluir obligatoriamente los metadatos de contexto al ini
 ---
 
 > Este índice se mantiene actualizado con los documentos actuales del área financiera y contable.
+
 

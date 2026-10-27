@@ -3,7 +3,7 @@
 # 📦 Categoría: Inventario y Logística - Telcobras S.A.S.
 
 ## 📖 ¿Qué es y para qué se usa esta categoría?
-La categoría **Inventario y Logística** concentra toda la documentación operativa relacionada con la gestión de stock, control de activos, almacenamiento, nomenclatura de productos y administración de recursos logísticos.
+La categoría **Inventario y Logística** concentra toda la documentación operativa relacionada con la gestión de stock, control de activos, almacenamiento, nomenclatura de productos y administración de recursos móviles y logísticos.
 
 **¿Para qué se usa?**
 * **Control de Activos y Stock:** Estandariza los procesos de creación de productos, asignación de códigos y manejo de inventarios.
@@ -16,8 +16,8 @@ La categoría **Inventario y Logística** concentra toda la documentación opera
 
 | # | Nombre del Archivo | Descripción General |
 | :--- | :--- | :--- |
-| **01** | `01_control_flota.md` | Documento sobre el control operativo y seguimiento de la flota de vehículos. |
-| **02** | `02_creacion_productos_nomenclatura.md` | Documento sobre la creación de productos, códigos y nomenclatura en inventario. |
+| **01** | `01_control_flota.md` | Control operativo y seguimiento de la flota vehicular y recursos logísticos. |
+| **02** | `02_creacion_productos_nomenclatura.md` | Creación de productos, códigos y nomenclatura para gestión de inventario. |
 
 ---
 
@@ -60,4 +60,5 @@ Todo manual nuevo debe incluir obligatoriamente los metadatos de contexto al ini
 ---
 
 > Este índice refleja los manuales actualmente disponibles en inventario y logística.
+
 
