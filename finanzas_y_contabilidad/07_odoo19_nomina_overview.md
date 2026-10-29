@@ -1,4 +1,4 @@
-````markdown
+
 <!-- Path: finanzas_y_contabilidad/07_odoo19_nomina_overview.md -->
 
 # 💵 Manual Operativo 07: Gestión Integral y Configuración del Módulo de Nómina en Odoo 19
@@ -65,7 +65,7 @@ El módulo de Nómina automatiza el cálculo y procesamiento de las retribucione
 Dado que las demostraciones internacionales base operan bajo legislaciones extranjeras (como EE. UU. o India), Telcobras debe configurar el módulo de acuerdo con la normatividad laboral y fiscal colombiana:
 
 | Componente Odoo | Homologación / Requerimiento en Colombia |
-| :--- | :--- | :--- |
+| :--- | :--- |
 | **Salario Básico** | Liquidado proporcionalmente a los días efectivamente laborados según las entradas de trabajo. |
 | **Auxilio de Transporte** | Configurado como regla con condición de tope salarial (vinculado a un parámetro de ley anual). |
 | **Horas Extra y Recargos** | Mapeadas desde el módulo de *Asistencias* aplicando porcentajes legales vigentes (extra diurna, nocturna, dominical y festiva). |
