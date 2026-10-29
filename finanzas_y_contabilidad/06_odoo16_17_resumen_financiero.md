@@ -1,4 +1,4 @@
-````markdown
+
 <!-- Path: finanzas_y_contabilidad/06_odoo16_17_resumen_financiero.md -->
 
 # 📊 Manual Operativo 06: Análisis y Lectura del Resumen Financiero Ejecutivo (Histórico v.16-17)
