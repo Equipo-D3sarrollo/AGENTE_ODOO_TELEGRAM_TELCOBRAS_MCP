@@ -59,8 +59,8 @@ Declara el elemento raíz `<ApplicationResponse>` con los *namespaces* estándar
   * `cbc:ProfileExecutionID`: `1` (Producción) o `2` (Pruebas).
   * `cbc:ID`: Número consecutivo interno de quien genera el evento (Anexo 1.9, AAD05).
   * `cbc:UUID`: CUDE del evento, calculado con SHA-384. El algoritmo se indica en `@schemeName="CUDE-SHA384"` y el ambiente de destino en `@schemeID` (Anexo 1.9, AAD06, AAD07 y AAD08).
-  * `cbc:IssueDate` y `cbc:IssueTime`: Fecha y hora de generación del evento. La fecha no puede ser anterior a la del documento referenciado (Anexo 1.9, AAD09 y AAD10).
-  * `cbc:Note`: Obligatoria para el evento `034` (Aceptación tácita), con una de las notas de manifestación bajo la gravedad de juramento que el anexo incluye al final del numeral 6.5.5.5 (la regla AAD11 las referencia como numeral 6.5.5.7); y cuando el documento es generado a través de un mandato, con el texto `Nombre del Mandatario OBRANDO EN NOMBRE Y REPRESENTACION DE Nombre del mandante` (Anexo 1.9, AAD11).
+  * `cbc:IssueDate` y `cbc:IssueTime`: Fecha y hora de generación del evento. La fecha no puede ser anterior a la del documento referenciado (Anexo 1.9, AAD09 y AAD10), y la fecha de generación del evento debe ser igual a la fecha de firma del evento (regla AAD09e, nueva en la versión 1.9).
+  * `cbc:Note`: Obligatoria para el evento `034` (Aceptación tácita), con una de las notas de manifestación bajo la gravedad de juramento que el anexo incluye al final del numeral 6.5.5.5 (la regla AAD11 las referencia como numeral 6.5.5.7); y cuando el documento es generado a través de un mandato, con el texto `Nombre del Mandatario OBRANDO EN NOMBRE Y REPRESENTACION DE Nombre del mandante` (Anexo 1.9, AAD11). Si falta la nota del evento de aceptación tácita o la nota de mandato, la DIAN rechaza (AAD11a, AAD11b).
 
 ### Paso 4.2: Construcción de Extensiones DIAN (`UBLExtensions`)
 Bloque para alojar información de control y la firma digital.
@@ -119,6 +119,7 @@ Paso crítico donde se especifica qué acción se está realizando y sobre qué 
 - Si ocurre el error `Secuencia de Eventos Inválida`, la solución es garantizar a nivel de código o interfaz de usuario que no se intente enviar una Aceptación Expresa (033) o Reclamo (031) sin haber procesado exitosamente el Acuse de Recibo (030) y el Recibo del Bien (032).
 - Si ocurre el error `CUDE Invalido en Evento` (regla `AAD06`), la solución es auditar la cadena de texto base usada para el SHA-384, verificando que los parámetros coincidan con la estructura solicitada para el documento `ApplicationResponse`: `Num_DE` + `Fec_Emi` + `Hor_Emi` + `NitFE` + `DocAdq` + `ResponseCode` + `ID` + `DocumentTypeCode` + `Software-PIN` (Anexo 1.9, num. 11.1.5).
 - Si ocurre el error `Referencia de Factura Invalida`, la solución es verificar que el `cbc:UUID` dentro del bloque `DocumentReference` contenga exactamente el CUFE de la factura, sin espacios y reportado en el momento original de la emisión.
+- Si ocurre el error `AAD09e` (la fecha de generación del evento es diferente a la fecha de firma), la solución es generar y firmar el evento con la misma fecha de `cbc:IssueDate`.
 - Si ocurre el error `Regla AAD09 - Fecha Inválida`, la solución es corroborar la sincronización del servidor (NTP), ya que el evento no puede tener una fecha anterior a la expedición de la factura, ni superior a la fecha actual del sistema de la DIAN.
 
 ---
