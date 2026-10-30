@@ -56,7 +56,7 @@ Mapea los códigos para IVA, INC, ICA, retenciones en la fuente, etc.
   - `06` - ReteFuente (Retención en la Fuente por Renta)
   - `07` - ReteICA (Retención sobre el ICA)
   - `ZZ` - No Aplica / Nombre del tributo (Para facturas exentas que requieren este nodo por validación).
-- *Nota: del PDF del anexo solo se confirman los códigos `01` (IVA), `04` (INC) y `03` (ICA), usados en el CUFE (num. 11.1.2), y el uso de `ZZ` / `No aplica` en el `cac:TaxScheme` del adquiriente consumidor final (reglas FAK40 y FAK41). Los demás códigos deben verificarse contra la tabla 13.2.2. Las retenciones (ReteIVA, ReteFuente) se informan en `cac:WithholdingTaxTotal`, no en `TaxTotal` (Anexo 1.9, FAT01).*
+- *Nota: del PDF del anexo solo se confirman los códigos `01` (IVA), `04` (INC) y `03` (ICA), usados en el CUFE (num. 11.1.2), y el uso de `ZZ` / `No aplica` en el `cac:TaxScheme` del adquiriente consumidor final (reglas FAK40 y FAK41). Los demás códigos deben verificarse contra la tabla 13.2.2. En la versión 1.9 se incluyeron en la tabla 13.2.2 Tributos los códigos 32, 33, 34, 35 y 36, y nuevos tributos con sus tarifas: Impuesto Nacional Productos plásticos (INPP), impuesto a las bebidas ultra procesadas azucaradas (IBUA), impuesto a los productos comestibles ultra procesados (ICUI), Impuesto al Consumo de Licores (ICL) y Ad Valorem (ADV); el anexo no asocia cada código a cada nombre en el PDF. En la tabla 13.2.1 se incluyó el código 48 PPT (Permiso Protección Temporal) (Anexo 1.9, num. 2.1). Las retenciones (ReteIVA, ReteFuente) se informan en `cac:WithholdingTaxTotal`, no en `TaxTotal` (Anexo 1.9, FAT01).*
 
 ### 4.2. Catálogo de Medios y Formas de Pago
 Define cómo y cuándo se paga la factura.
@@ -77,7 +77,7 @@ Define cómo y cuándo se paga la factura.
 
 ### 4.3. Catálogo de Unidades de Medida (UN/ECE Rec 20)
 Determina en qué presentación se vende el ítem.
-- **Ruta XML Afectada:** Atributo `@unitCode` en `cbc:InvoicedQuantity` (regla FAV05, rechazo), `cac:Price/cbc:BaseQuantity` (regla FBB05, rechazo), `cbc:BaseUnitMeasure` de los tributos por unidad (FAS10, FAX10) y `cbc:ValueQuantity` de `AdditionalItemProperty` en transporte (FBF05). `cbc:PriceAmount` no lleva `@unitCode`: lleva `@currencyID` (Anexo 1.9, FBB03). La tabla es la 13.3.6 Unidades de Cantidad de la Caja de Herramientas (Anexo 1.9, num. 14.5.6).
+- **Ruta XML Afectada:** Atributo `@unitCode` en `cbc:InvoicedQuantity` (regla FAV05, rechazo), `cac:Price/cbc:BaseQuantity` (regla FBB05, marcada como rechazo en la tabla de reglas aunque su texto menciona notificación), `cbc:BaseUnitMeasure` de los tributos por unidad (FAS10, FAX10) y `cbc:ValueQuantity` de `AdditionalItemProperty` en transporte (FBF05). `cbc:PriceAmount` no lleva `@unitCode`: lleva `@currencyID` (Anexo 1.9, FBB03). La tabla es la 13.3.6 Unidades de Cantidad de la Caja de Herramientas (Anexo 1.9, num. 14.5.6).
 - **Mapeo Principal (Ejemplos Frecuentes):**
   - `94` - Unidad (Goods) / Pieza
   - `EA` - Cada Uno (Each)
