@@ -83,23 +83,4 @@ Cómo usar esta guía: haga los pasos de esta página[cite: 87]. Cuando un paso 
 | Nota Credito[cite: 88] | NC[cite: 88] | Vacía[cite: 88] | Desmarcadas[cite: 88] | Desmarcada[cite: 88] |
 | Nota Debito[cite: 88] | ND[cite: 88] | Vacía[cite: 88] | Desmarcadas[cite: 88] | Marcada[cite: 88] |
 
-Los tres son de tipo Ventas con UBL 2.1 marcado[cite: 88]. En Nota Credito y Nota Debito no se pulsa "Volver a cargar la configuración de la DIAN": las notas no tienen resolución y el aviso de rango no encontrado es normal[cite: 88].desde la factura eligiendo el diario Nota Credito o Nota Debito[cite: 88]. |
-| RUT01: la validación del estado del RUT...[cite: 88] | Es solo un aviso[cite: 88]. No hacer nada[cite: 88]. |
-| Cualquier otro código[cite: 88] | No reintente[cite: 88]. Copie el mensaje completo y envíelo al equipo de Desarrollo[cite: 88]. |
-
-### Ref. D. Reglas que no se pueden romper[cite: 88]
-1. Una nota Aceptada no se edita ni se borra[cite: 88]. Si quedó mal, se corrige con otra nota[cite: 88].
-2. La factura original no se reenvía ni se modifica[cite: 88].
-3. Las notas tienen su propia numeración (NC1, NC2... / ND1, ND2...)[cite: 88]. No usan el número de la factura[cite: 88].
-4. El sello Revertido / Pagado en la factura no significa que la nota se envió[cite: 88]. Solo cuenta el estado Aceptado[cite: 88].
-5. Si se anula una factura de una orden de venta, la orden vuelve a quedar por facturar[cite: 88]: cancélela o refacture desde ella[cite: 88].
-6. Si hubo productos devueltos, la devolución física se registra aparte en Inventario[cite: 88].
-
-### Ref. E. Configuración de diarios (solo el administrador la modifica)[cite: 88]
-| Diario | Código | Resolución DIAN | Secuencias dedicadas | Casilla Nota de Débito |
-| :--- | :--- | :--- | :--- | :--- |
-| Ventas[cite: 88] | FE[cite: 88] | Sí[cite: 88] | Desmarcadas[cite: 88] | Desmarcada[cite: 88] |
-| Nota Credito[cite: 88] | NC[cite: 88] | Vacía[cite: 88] | Desmarcadas[cite: 88] | Desmarcada[cite: 88] |
-| Nota Debito[cite: 88] | ND[cite: 88] | Vacía[cite: 88] | Desmarcadas[cite: 88] | Marcada[cite: 88] |
-
 Los tres son de tipo Ventas con UBL 2.1 marcado[cite: 88]. En Nota Credito y Nota Debito no se pulsa "Volver a cargar la configuración de la DIAN": las notas no tienen resolución y el aviso de rango no encontrado es normal[cite: 88].
