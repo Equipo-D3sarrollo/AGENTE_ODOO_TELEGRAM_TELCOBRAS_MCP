@@ -94,6 +94,7 @@ Aplica para empresas que venden bienes o servicios al exterior en moneda extranj
   - `TargetCurrencyBaseRate`: Debe ser `1.00` (FAR05).
   - `CalculationRate`: Tasa Representativa del Mercado (TRM) del día o pactada. Valor reportado * tasa de cambio = valor en la divisa de `TargetCurrencyCode` (FAR06).
   - `Date`: Fecha de la tasa de cambio, en que se acordó la tasa (FAR07).
+  - *Advertencia: la tabla de definición de la factura (num. 6.1) describe este grupo de otra forma (divisa base COP y `TargetCurrencyCode` en moneda extranjera); las dos tablas del anexo se contradicen. Ver Manual 28, Paso 4.2.*
 - **Impuestos (IVA):** Se emite con código `01` (IVA), tarifa `0.00%` (Exento).
 - **Comprador (`AccountingCustomerParty`):** El `TaxLevelCode` del cliente en el exterior suele ser `R-99-PN`, utilizando la identificación fiscal de su país o un NIT genérico (ej. `444444044`). *El Anexo 1.9 no indica el NIT genérico; en exportación (`InvoiceTypeCode` = `02`) con valor total superior a 100 UVT aplican las reglas del grupo `PartyTaxScheme` del adquiriente (regla FAK19).*
 - **Ítems:** En factura internacional (`InvoiceTypeCode` = `02`) se deben informar la marca (`cbc:BrandName`) y el modelo (`cbc:ModelName`) del artículo; si faltan, la DIAN notifica (Anexo 1.9, FAZ04 y FAZ05).
