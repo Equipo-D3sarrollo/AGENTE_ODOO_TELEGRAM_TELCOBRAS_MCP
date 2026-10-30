@@ -48,7 +48,7 @@ El proceso de transmisión actúa como la capa de transporte entre el sistema de
 ### Paso 4.1: Compresión y Codificación (ZIP a Base64)
 - **Procedimiento:**
   1. Tomar el documento XML cerrado y firmado.
-  2. Nombrarlo bajo el estándar: prefijo del tipo de documento (`fv` factura, `nc` nota crédito, `nd` nota débito, `ar` ApplicationResponse, `ad` AttachedDocument) + NIT del facturador sin DV de 10 dígitos con ceros a la izquierda + código `ppp` del PT (`000` Software Propio, `001` Facturación Gratuita DIAN) + 2 últimos dígitos del año + consecutivo de 8 dígitos hexadecimales (Ej. `fv08001972680001900000011.xml`). El consecutivo se reinicia en `00000001` cada 1 de enero (Anexo 1.9, num. 6.7).
+  2. Nombrarlo bajo el estándar: prefijo del tipo de documento (`fv` factura, `nc` nota crédito, `nd` nota débito, `ar` ApplicationResponse, `ad` AttachedDocument) + NIT del facturador sin DV de 10 dígitos con ceros a la izquierda + código `ppp` del PT (`000` Software Propio, `001` Facturación Gratuita DIAN; la tabla de códigos de asignación está en la Caja de Herramientas, archivo `Códigos de Asignación.xlsx`, columna C, num. 6.9) + 2 últimos dígitos del año + consecutivo de 8 dígitos hexadecimales (Ej. `fv08001972680001900000011.xml`). El consecutivo se reinicia en `00000001` cada 1 de enero (Anexo 1.9, num. 6.7).
   3. Comprimir el archivo en formato `.zip` con el prefijo `z` + NIT de 10 dígitos + `ppp` + año + consecutivo de 8 dígitos hexadecimales del paquete enviado (Ej. `z08001972680001900000011.zip`). El ZIP puede combinar documentos `fv`, `nc`, `nd` y `ar` cuando se envía por el servicio asincrónico (Anexo 1.9, num. 6.8).
   4. Convertir los datos binarios del `.zip` a una cadena de texto en codificación `Base64`.
 
@@ -127,3 +127,4 @@ Dependiendo de la operación a ejecutar (Envío de documento o Consulta de estad
 ---
 ### 🔗 Línea de Enrutamiento para el System Prompt
 - Transmisión a la DIAN (Web Services y Lotes), Peticiones SOAP, WS-Security, SendBillAsync, GetStatus, y compresión ZIP a Base64: https://raw.githubusercontent.com/Equipo-D3sarrollo/AGENTE_ODOO_TELEGRAM_TELCOBRAS_MCP/main/finanzas_y_contabilidad/13_manual_transmision_dian.md
+
