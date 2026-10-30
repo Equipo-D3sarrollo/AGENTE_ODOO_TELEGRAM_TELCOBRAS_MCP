@@ -1,4 +1,3 @@
-
 <!-- Path: finanzas_y_contabilidad/07_odoo19_nomina_overview.md -->
 
 # 💵 Manual Operativo 07: Gestión Integral y Configuración del Módulo de Nómina en Odoo 19
